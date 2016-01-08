@@ -1,0 +1,22 @@
+{
+  "name": "bitmap",
+  "version": "1.0.0",
+  "description": "'This is a program to transform a bitmap image'",
+  "main": "executeBitmapxForm.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "'gulp'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitmap-transformer/bitmapping.git"
+  },
+  "author": "'Stephen Salzer', 'Erika Hokanson', 'James Mason'",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bitmap-transformer/bitmapping/issues"
+  },
+  "homepage": "https://github.com/bitmap-transformer/bitmapping#readme"
+}
