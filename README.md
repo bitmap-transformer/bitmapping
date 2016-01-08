@@ -1,7 +1,7 @@
 Code Fellows 401 Advanced Software Development
 Bitmap Transformer
 
-TEAM: 
+TEAM:
 Stephen Salzer
-James Morgan
+James Mason
 Erika Hokanson
