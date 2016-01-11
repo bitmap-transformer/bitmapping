@@ -39,7 +39,7 @@ gulp.task('eslint_check', function() {
   )).pipe(plugins.eslint.format()).pipe(plugins.eslint.failAfterError());
 });
 gulp.task('mocha_tests', function () {
-  return gulp.src('test/*.js', {read: false}).pipe(plugins.mocha({reporter: 'spec'}));
+  return gulp.src('test/*.js', {read: false}).pipe(plugins.mocha({reporter: 'nyan'}));
 });
 gulp.task('create_scripts_min_js', function() {
   return gulp.src('lib/*.js').pipe(plugins.concat('scripts.js'))
