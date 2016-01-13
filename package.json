@@ -1,8 +1,8 @@
 {
-  "name": "bitmap",
-  "version": "1.0.0",
-  "description": "'This is a program to transform a bitmap image'",
-  "main": "executeBitmapxForm.js",
+  "name": "basic-bitmap-transformer",
+  "version": "1.2.0",
+  "description": "This is a command line utility for to transforming certain bitmap images.",
+  "main": "bitmapTransformer.js",
   "directories": {
     "test": "test"
   },
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/bitmap-transformer/bitmapping.git"
   },
-  "author": "'Stephen Salzer', 'Erika Hokanson', 'James Mason'",
+  "author": "'James Mason', 'Stephen Salzer', 'Erika Hokanson'",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/bitmap-transformer/bitmapping/issues"
@@ -29,6 +29,18 @@
     "gulp-load-plugins": "^1.2.0",
     "gulp-mocha": "^2.2.0",
     "gulp-rename": "^1.2.2",
-    "gulp-uglify": "^1.5.1"
+    "gulp-uglify": "^1.5.1",
+    "mkdirp": "^0.5.1",
+    "mocha": "^2.3.4"
+  },
+  "readmeFilename": "README.md",
+  "bin": {
+    "basicbitmaptransformer": "bin/bitmapTransformer.js"
+  },
+  "dependencies": {
+    "mkdirp": "^0.5.1"
+  },
+  "engines": {
+    "node": "*"
   }
 }
