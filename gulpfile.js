@@ -49,5 +49,5 @@ gulp.task('create_scripts_min_js', function() {
       .pipe(gulp.dest('dist'));
 });
 gulp.task('watch', function() {
-  gulp.watch(['**/*.js', '!package.json', '!node_modules/**', '!dist/.js'], ['eslint_check', 'mocha_tests', 'create_scripts_min_js']);
+  gulp.watch(['**/*.js', '!package.json', '!node_modules/**', '!dist/*.js'], ['eslint_check', 'mocha_tests', 'create_scripts_min_js']);
 });
