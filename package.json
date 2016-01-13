@@ -1,6 +1,6 @@
 {
   "name": "basic-bitmap-transformer",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "This is a command line utility for to transforming certain bitmap images.",
   "main": "bitmapTransformer.js",
   "directories": {

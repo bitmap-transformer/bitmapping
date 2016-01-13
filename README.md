@@ -13,14 +13,19 @@ This application can be installed globally via [npm](https://www.npmjs.com/packa
 `$npm install -g basic-bitmap-transformer`
 
 ###Useage:
+When using via a global npm installation:
 
-$basicbitmaptransformer [bitmapFile] [transformation]
+`$basicbitmaptransformer [bitmapFile] [transformation]`
+
+When using from the project root:
+
+`$node bitformTransformer.js [bitmapFile] [transformation]`
 
 Note: The [bitmapFile] provided must be located in the current directory or must be prefixed by the appropriate relative path.  For example, if the file bitmap.bmp is located in the current directory you could simply specify 'bitmap.bmp' for the [bitmapFile] argument, but if the file bitmap.bmp were in an 'image' folder inside the current directory then you would need to prefix 'image/' to the file name for the [bitmapFile] argument ('images/bitmap.bmp').
 
 ###Transformations:
 
-Color Palette Transformations:
+####Color Palette Transformations:
 
 'greyscalePalette' - converts the bitmap's color palette to greyscale.
 
@@ -30,7 +35,7 @@ Color Palette Transformations:
 
 'blueShiftPalette' - converts the bitmap's color palette to the blue channel.
 
-Pixel Transformations:
+####Pixel Transformations:
 
 'greyscalePixels' - converts the bitmap's pixels to greyscale.
 
